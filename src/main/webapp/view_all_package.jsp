@@ -114,6 +114,7 @@
             <th><%=insert_dto.getCost()%></th>
             <th><%=insert_dto.getPackages()%></th>
             <th>
+            
                 <img src="data:image/jpeg;base64,<%=insert_dto.getPicture()%>" alt="Picture" style="width: 100px; height: auto;">
             </th>
             <th><a href="/admin/update/<%=insert_dto.getId()%>"><button>Edit</button></a></th>
